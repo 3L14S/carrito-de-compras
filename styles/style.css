@@ -1,0 +1,48 @@
+
+body{
+  background-color: DarkSlateGrey;
+}
+#sectionProducto{
+  display: flex;
+  flex-wrap: wrap;
+}
+#sectionProducto button{
+  background-color: DeepSkyBlue;
+  border: 1px solid;  
+}
+.divItems {  
+  text-align: center;
+  border: 2px solid black;
+  margin: 1rem;
+  padding: 1rem; 
+  background-color: floralwhite;
+  color:MidnightBlue;
+}
+.divItems p{
+  color: brown;
+}
+
+#sectionCarrito{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+#sectionCarrito h3{
+padding-left: 0;
+  margin: 5px;
+  color: Azure;
+  font-size: 1.5rem;
+}
+#sectionCarrito p{
+  padding-left: 0;
+  margin: 5px;
+  color: Azure;
+  font-size: 1.5rem;
+}
+#sectionCarrito button{
+  background-color:DarkOrange;
+  border: 1px solid black;
+  border-radius: 5%;  
+  font-size: 2rem;
+}
